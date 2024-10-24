@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --blk: #000000;
+  --cata: #06327d;
+  --bltf: #2b70e4;
+  --vga: #209d5c;
+  --snglw: #ffd034;
+  --wht: #ffffff;
+  --lghtb: #cadbf8;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: var(--lghtb);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-family: "poppins";
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* .logo {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0;
+  align-items: flex-end;
+} */
+span {
+  display: inline-block;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--cata);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  gap: 1rem;
+}
+header a {
+  color: var(--wht);
+  text-decoration: none;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.1667;
+  margin: 0;
+  font-weight: normal;
+  color: var(--wht);
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.667;
+  font-weight: normal;
+  display: grid;
+}
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.1667;
+  font-weight: normal;
+}
+img {
+  max-width: 100%;
+}
+
+.coffee-and-code {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  background-color: var(--wht);
+  border-top: solid var(--snglw) 10px;
+  padding: 2rem;
+}
+.button1 {
+  color: var(--wht);
+  background-color: var(--vga);
+  padding: 1rem;
+  text-decoration: none;
+}
+.buttons {
+  background-color: hsl(218, 91%, 26%);
+  color: var(--wht);
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+.card {
+  padding-bottom: 2rem;
+}
+.ftt {
+  background-color: var(--cata);
+  text-align: center;
+  color: var(--wht);
+  border-top: solid var(--snglw) 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media (min-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 899px) {
+  header {
+    justify-content: space-between;
+  }
+}
