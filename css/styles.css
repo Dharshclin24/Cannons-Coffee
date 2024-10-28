@@ -86,6 +86,9 @@ img {
   border-top: solid var(--snglw) 10px;
   padding: 2rem;
 }
+.our-coffee {
+  background-color: var(--lghtb);
+}
 .button1 {
   color: var(--wht);
   background-color: var(--vga);
