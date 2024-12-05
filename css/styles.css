@@ -45,6 +45,10 @@ header {
   text-align: center;
   background-color: var(--cata);
 }
+svg {
+  width: 20px;
+  height: 20 px;
+}
 nav ul {
   display: flex;
   justify-content: center;
