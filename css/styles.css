@@ -17,7 +17,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: var(--lghtb);
+  background-color: var(--cata);
   font-size: 1.125rem;
   line-height: 1.5;
   font-family: "poppins";
@@ -89,6 +89,9 @@ img {
   background-color: var(--wht);
   border-top: solid var(--snglw) 10px;
   padding: 2rem;
+}
+.our-coffee {
+  background-color: var(--lghtb);
 }
 .button1 {
   color: var(--wht);
