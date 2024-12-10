@@ -122,6 +122,26 @@ img {
   grid-template-columns: 1fr;
   gap: 2rem;
 }
+#burger-button {
+  display: none;
+}
+
+@media (max-width: 384px) {
+  #burger-button {
+    display: block;
+    margin: 1rem auto;
+  }
+  nav ul {
+    display: none;
+  }
+  svg {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+}
+
 @media (min-width: 650px) {
   .grid {
     grid-template-columns: 1fr 1fr;
